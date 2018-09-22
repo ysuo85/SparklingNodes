@@ -1,4 +1,5 @@
 import UIKit
+import PeerConnectivity
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

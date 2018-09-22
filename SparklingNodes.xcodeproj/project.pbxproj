@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		405F1CDDA0B688990718409D /* Pods_SparklingNodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D75C20C9A52CBE8D637252 /* Pods_SparklingNodes.framework */; };
 		BB942F312156896200FF59CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB942F302156896200FF59CC /* Assets.xcassets */; };
 		BB942F3D21568A7300FF59CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F3B21568A7300FF59CC /* AppDelegate.swift */; };
 		BB942F3E21568A7300FF59CC /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F3C21568A7300FF59CC /* ColorSwitchViewController.swift */; };
@@ -16,9 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AA0C327C266F0A3A165A52D /* Pods-SparklingNodes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparklingNodes.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparklingNodes/Pods-SparklingNodes.release.xcconfig"; sourceTree = "<group>"; };
-		15BE609B8879A9CD69E1F95E /* Pods-SparklingNodes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparklingNodes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparklingNodes/Pods-SparklingNodes.debug.xcconfig"; sourceTree = "<group>"; };
-		29D75C20C9A52CBE8D637252 /* Pods_SparklingNodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparklingNodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB942F262156896200FF59CC /* SparklingNodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparklingNodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB942F302156896200FF59CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB942F352156896200FF59CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,29 +29,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405F1CDDA0B688990718409D /* Pods_SparklingNodes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		694BEADDFC229684E64B9C03 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15BE609B8879A9CD69E1F95E /* Pods-SparklingNodes.debug.xcconfig */,
-				0AA0C327C266F0A3A165A52D /* Pods-SparklingNodes.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BB942F1D2156896200FF59CC = {
 			isa = PBXGroup;
 			children = (
 				BB942F282156896200FF59CC /* SparklingNodes */,
 				BB942F272156896200FF59CC /* Products */,
-				694BEADDFC229684E64B9C03 /* Pods */,
-				DA37C5928C41D7BDCEC2104B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,14 +64,6 @@
 			path = SparklingNodes;
 			sourceTree = "<group>";
 		};
-		DA37C5928C41D7BDCEC2104B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				29D75C20C9A52CBE8D637252 /* Pods_SparklingNodes.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,11 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB942F382156896200FF59CC /* Build configuration list for PBXNativeTarget "SparklingNodes" */;
 			buildPhases = (
-				E1F605D207443D4124634781 /* [CP] Check Pods Manifest.lock */,
 				BB942F222156896200FF59CC /* Sources */,
 				BB942F232156896200FF59CC /* Frameworks */,
 				BB942F242156896200FF59CC /* Resources */,
-				38018830296FCBBA6B98AD72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,53 +129,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		38018830296FCBBA6B98AD72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SparklingNodes/Pods-SparklingNodes-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PeerConnectivity/PeerConnectivity.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PeerConnectivity.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparklingNodes/Pods-SparklingNodes-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1F605D207443D4124634781 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SparklingNodes-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB942F222156896200FF59CC /* Sources */ = {
@@ -334,7 +261,6 @@
 		};
 		BB942F392156896200FF59CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15BE609B8879A9CD69E1F95E /* Pods-SparklingNodes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,7 +278,6 @@
 		};
 		BB942F3A2156896200FF59CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AA0C327C266F0A3A165A52D /* Pods-SparklingNodes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
