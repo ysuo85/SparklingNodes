@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB942F2A2156896200FF59CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F292156896200FF59CC /* AppDelegate.swift */; };
-		BB942F2C2156896200FF59CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F2B2156896200FF59CC /* ViewController.swift */; };
-		BB942F2F2156896200FF59CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB942F2D2156896200FF59CC /* Main.storyboard */; };
 		BB942F312156896200FF59CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB942F302156896200FF59CC /* Assets.xcassets */; };
-		BB942F342156896200FF59CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB942F322156896200FF59CC /* LaunchScreen.storyboard */; };
+		BB942F3D21568A7300FF59CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F3B21568A7300FF59CC /* AppDelegate.swift */; };
+		BB942F3E21568A7300FF59CC /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB942F3C21568A7300FF59CC /* ColorSwitchViewController.swift */; };
+		BB942F4121568AF200FF59CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB942F3F21568AF200FF59CC /* Main.storyboard */; };
+		BB942F4221568AF200FF59CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB942F4021568AF200FF59CC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB942F262156896200FF59CC /* SparklingNodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparklingNodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB942F292156896200FF59CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB942F2B2156896200FF59CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB942F2E2156896200FF59CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB942F302156896200FF59CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB942F332156896200FF59CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB942F352156896200FF59CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB942F3B21568A7300FF59CC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		BB942F3C21568A7300FF59CC /* ColorSwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwitchViewController.swift; sourceTree = "<group>"; };
+		BB942F3F21568AF200FF59CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB942F4021568AF200FF59CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +54,11 @@
 		BB942F282156896200FF59CC /* SparklingNodes */ = {
 			isa = PBXGroup;
 			children = (
-				BB942F292156896200FF59CC /* AppDelegate.swift */,
-				BB942F2B2156896200FF59CC /* ViewController.swift */,
-				BB942F2D2156896200FF59CC /* Main.storyboard */,
+				BB942F3C21568A7300FF59CC /* ColorSwitchViewController.swift */,
+				BB942F3B21568A7300FF59CC /* AppDelegate.swift */,
+				BB942F4021568AF200FF59CC /* LaunchScreen.storyboard */,
+				BB942F3F21568AF200FF59CC /* Main.storyboard */,
 				BB942F302156896200FF59CC /* Assets.xcassets */,
-				BB942F322156896200FF59CC /* LaunchScreen.storyboard */,
 				BB942F352156896200FF59CC /* Info.plist */,
 			);
 			path = SparklingNodes;
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB942F342156896200FF59CC /* LaunchScreen.storyboard in Resources */,
 				BB942F312156896200FF59CC /* Assets.xcassets in Resources */,
-				BB942F2F2156896200FF59CC /* Main.storyboard in Resources */,
+				BB942F4221568AF200FF59CC /* LaunchScreen.storyboard in Resources */,
+				BB942F4121568AF200FF59CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB942F2C2156896200FF59CC /* ViewController.swift in Sources */,
-				BB942F2A2156896200FF59CC /* AppDelegate.swift in Sources */,
+				BB942F3D21568A7300FF59CC /* AppDelegate.swift in Sources */,
+				BB942F3E21568A7300FF59CC /* ColorSwitchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BB942F2D2156896200FF59CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB942F2E2156896200FF59CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB942F322156896200FF59CC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB942F332156896200FF59CC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB942F362156896200FF59CC /* Debug */ = {
